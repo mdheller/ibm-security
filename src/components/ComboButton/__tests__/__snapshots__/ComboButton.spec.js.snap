@@ -49,7 +49,7 @@ exports[`ComboButton renders a combo button with children and an overflow menu 1
           type="button"
         >
           <span
-            className="bx--text-truncate--end"
+            className="security--combo-button__label"
             title="Start a task"
           >
             Start a task
@@ -233,7 +233,7 @@ exports[`ComboButton renders a combo button without an overflow menu 1`] = `
           type="button"
         >
           <span
-            className="bx--text-truncate--end"
+            className="security--combo-button__label"
             title="Start a task"
           >
             Start a task

@@ -64,7 +64,7 @@ const ComboButton = ({ children, className, direction }) => {
         renderIcon={Icon}
         type="button"
       >
-        <span className={`${prefix}--text-truncate--end`} title={children}>
+        <span className={`${namespace}__label`} title={children}>
           {children}
         </span>
       </Button>
